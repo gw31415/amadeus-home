@@ -1,13 +1,12 @@
 <template>
   <div>
     <div class="cover">
-      <logo size="300" />
+      <img src="@/assets/icon.jpg" class="icon"/>
       <h1 class="myname">Amadeus_vn</h1>
       <h2 class="subtitle">天輝主</h2>
     </div>
     <h3 class="quote zayu">
-      The JACK
-      <br />of all trades.
+      The JACK of all trades.
     </h3>
     <div class="hblist">
       <hobby main="Violin," />
@@ -22,28 +21,33 @@
       <br />⇒ Umm.....
     </h3>
     <div class="tx">
-      中高一貫男子校卒, 大学落第ループ中.
+      中高一貫校卒, 大学落第ループ中.
       <br />素材の味を活かした自然派浪人生です.
     </div>
   </div>
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
 import hobby from "~/components/hobby.vue";
 
 export default {
   components: {
-    Logo,
     hobby
   }
 };
 </script>
 
 <style>
+.icon {
+  width: min(300px,80vmin);
+  height: auto;
+  border-radius: min(300px,80vmin);
+  }
 .quote {
   padding-top: 2ex;
   padding-bottom: 2ex;
+  padding-left: 1em;
+  padding-right: 1em;
   font-size: 42px;
   width: 100vw;
 }
@@ -68,13 +72,14 @@ export default {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 54px;
+  font-size: min(15vw, 54px);
   color: #35495e;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
+  font-size: min(10vw, 36px);
   font-size: 42px;
   color: #526488;
   word-spacing: 5px;
