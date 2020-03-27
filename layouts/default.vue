@@ -5,14 +5,14 @@
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" fixed temporary>
       <v-list>
-        <v-list-item link>
+        <v-list-item link @click.stop="$router.push('/')">
           <v-list-item-title>Home</v-list-item-title>
+        </v-list-item>
+        <v-list-item link @click.stop="$router.push('/contacts')">
+          <v-list-item-title>Contacts</v-list-item-title>
         </v-list-item>
         <!--v-list-item link>
           <v-list-item-title>Products</v-list-item-title>
-        </v-list-item>
-        <v-list-item link>
-          <v-list-item-title>Contacts</v-list-item-title>
         </v-list-item>
         <v-list-item link>
           <v-list-item-title>Donate</v-list-item-title>
@@ -71,6 +71,7 @@ html {
 }
 .appbar {
   background: linear-gradient(white, transparent);
+  /*backdrop-filter: blur(10px);*/
 }
 </style>
 <script>

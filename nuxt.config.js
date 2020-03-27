@@ -39,7 +39,7 @@ export default {
   ],
   webfontloader: {
     google: {
-      families: ['Griffy', 'Life Savers']
+      families: ['Griffy', 'Life Savers', 'Julius Sans One']
     }
   },
   /*
