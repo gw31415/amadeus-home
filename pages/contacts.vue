@@ -2,10 +2,13 @@
   <div>
     <div class="headtitle">
       <img src="@/assets/bar.jpg" class="headback" />
-      <div class="titlback">
-        <div class="titl">Contacts</div>
+      <div class="alltitle">
+        <div class="titlback">
+          <div class="titl">Contacts</div>
+        </div>
       </div>
     </div>
+    <div class="slide"></div>
     <div class="headbase"></div>
     <contact
       name="Twitter"
@@ -76,9 +79,28 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 30vh;
+  height: 40vh;
   width: 100vw;
   position: fixed;
+}
+.alltitle {
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 25vh;
+  width: 100vw;
+  position: fixed;
+}
+.slide {
+  height: 80vh;
+  width: 100vw;
+  position: fixed;
+  top: 25vh;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.5) ;
 }
 .headbase {
   height: 30vh;
@@ -101,7 +123,7 @@
   align-items: center;
   position: absolute;
   backdrop-filter: blur(10px);
-  height: 20vh;
+  height: 18vh;
   width: 80vw;
 }
 </style>
