@@ -48,6 +48,16 @@
       description="gw31415はAmadeus_vnです."
     />
     <contact
+      name="YouTube"
+      icon="mdi-youtube"
+      color="red"
+      icocolor="white"
+      shareTitle="YouTube"
+      shareText=""
+      shareUrl="https://youtube.com/channel/UCOgNXfCpmc6fe5_P3BO4xRA"
+      description="特に更新はしていない"
+    />
+    <contact
       name="メール"
       icon="mdi-email"
       color="white"
