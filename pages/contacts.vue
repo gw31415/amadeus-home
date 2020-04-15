@@ -61,6 +61,16 @@
       description="特に更新はしていない"
     />
     <contact
+      name="ますらばWiki"
+      icon="mdiWikipedia"
+      color="white"
+      icocolor="black"
+      shareTitle="ますらばWiki"
+      shareText=""
+      shareUrl="https://wiki.mathlava.com/wiki/%e5%88%a9%e7%94%a8%e8%80%85:%e5%a4%a9%e8%bc%9d%e4%b8%bb"
+      description="管理をしています"
+    />
+    <contact
       name="メール"
       icon="mdi-email"
       color="white"
