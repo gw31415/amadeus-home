@@ -62,7 +62,7 @@
     />
     <contact
       name="ますらばWiki"
-      icon="mdiWikipedia"
+      icon="mdi-wikipedia"
       color="white"
       icocolor="black"
       shareTitle="ますらばWiki"
