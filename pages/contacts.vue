@@ -73,8 +73,8 @@
     <contact
       name="メール"
       icon="mdi-email"
-      color="white"
-      icocolor="gray"
+      color="slateblue"
+      icocolor="white"
       shareTitle="メール"
       shareText="お問い合わせ"
       shareUrl="mailto:q1@amas.dev"
