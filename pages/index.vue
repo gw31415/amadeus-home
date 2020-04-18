@@ -2,9 +2,9 @@
   <div>
     <div class="cover">
       <img src="@/assets/icon.jpg" class="icon"/>
-      <h1 class="myname">Amadeus_vn</h1>
-      <h2 class="subtitle">天輝主</h2>
-      <div class="scrollico"></div>
+      <h1 class="myname item__inner">Amadeus_vn</h1>
+      <h2 class="subtitle item__inner">天輝主</h2>
+      <div class="scrollico item__inner"></div>
     </div>
     <h3 class="quote zayu">
       The JACK of all trades.
@@ -39,6 +39,13 @@ export default {
 </script>
 
 <style>
+.item__inner{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .scrollico {
   position: absolute;
   top: 0;
