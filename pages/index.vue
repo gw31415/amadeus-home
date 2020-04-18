@@ -4,7 +4,7 @@
       <img src="@/assets/icon.jpg" class="icon"/>
       <h1 class="myname">Amadeus_vn</h1>
       <h2 class="subtitle">天輝主</h2>
-      <a href="#"><span></span>Scroll</a>
+      <div class="scrollico"></div>
     </div>
     <h3 class="quote zayu">
       The JACK of all trades.
@@ -39,20 +39,7 @@ export default {
 </script>
 
 <style>
-a {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  z-index: 2;
-  display: inline-block;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  text-decoration: none;
-}
-a {
-  padding-top: 70px;
-}
-a span {
+.scrollico {
   position: absolute;
   top: 0;
   left: 50%;
