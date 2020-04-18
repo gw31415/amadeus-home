@@ -28,7 +28,8 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    '@/plugins/vueinview.js'
+    '@/plugins/vueinview.js',
+    '@/plugins/vuetify.js'
   ],
   /*
    ** Nuxt.js modules

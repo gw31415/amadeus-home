@@ -61,6 +61,16 @@
       description="特に更新はしていない"
     />
     <contact
+      name="LINE"
+      icon="fab fa-line"
+      color="#00b900"
+      icocolor="white"
+      shareTitle="LINE"
+      shareText=""
+      shareUrl="https://lin.ee/oVlhHh7"
+      description="返信遅れることがよくありそうです"
+    />
+    <contact
       name="ますらばWiki"
       icon="mdi-wikipedia"
       color="white"
