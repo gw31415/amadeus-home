@@ -4,6 +4,7 @@
       <img src="@/assets/icon.jpg" class="icon"/>
       <h1 class="myname">Amadeus_vn</h1>
       <h2 class="subtitle">天輝主</h2>
+      <a href="#"><span></span>Scroll</a>
     </div>
     <h3 class="quote zayu">
       The JACK of all trades.
@@ -38,11 +39,65 @@ export default {
 </script>
 
 <style>
+a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-decoration: none;
+}
+a {
+  padding-top: 70px;
+}
+a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 1.5s infinite;
+  animation: sdb 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
 .icon {
   width: min(300px,80vmin);
   height: auto;
   border-radius: min(300px,80vmin);
-  }
+}
 .quote {
   padding-top: 2ex;
   padding-bottom: 2ex;
