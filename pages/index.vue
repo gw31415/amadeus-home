@@ -153,6 +153,7 @@ export default {
 }
 .pages {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   background-color: #424242;
   color: white;
   display: flex;
