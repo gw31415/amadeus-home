@@ -27,7 +27,7 @@
     </div>
     <h3 class="quote pages">
       連絡先
-      <v-icon size="150px" @click="$router.push('/contacts')">mdi-account_circle</v-icon>
+      <v-icon size="150px" @click="$router.push('/contacts')" color="white" >mdi-account-circle</v-icon>
     </h3>
   </div>
 </template>
@@ -152,7 +152,7 @@ export default {
   color: white;
 }
 .pages {
-  background-color: #263238;
+  background-color: #424242;
   color: white;
 }
 </style>
