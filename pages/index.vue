@@ -21,14 +21,14 @@
       Are they a student?
       <br />⇒ Umm.....
     </h3>
-    <h3 class="quote pages">
-      連絡先
-      <v-icon size="150px" @click="$router.push('/contacts')"> account_circle </v-icon>
-    </h3>
     <div class="tx">
       中高一貫校卒, 大学落第ループ中.
       <br />素材の味を活かした自然派浪人生です.
     </div>
+    <h3 class="quote pages">
+      連絡先
+      <v-icon size="150px" @click="$router.push('/contacts')">mdi-account_circle</v-icon>
+    </h3>
   </div>
 </template>
 
