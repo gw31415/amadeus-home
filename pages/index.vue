@@ -40,9 +40,6 @@ export default {
 
 <style>
 .scrollico {
-/*
-  position: absolute;
-*/
   top: 0;
   left: 50%;
   width: 24px;
