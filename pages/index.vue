@@ -152,7 +152,12 @@ export default {
   color: white;
 }
 .pages {
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
   background-color: #424242;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 </style>
