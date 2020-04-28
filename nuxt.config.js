@@ -36,6 +36,7 @@ export default {
    */
   modules: [
     '@nuxtjs/vuetify',
+    '@nuxtjs/sitemap',
     'nuxt-webfontloader'
   ],
   webfontloader: {
