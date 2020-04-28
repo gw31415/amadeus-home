@@ -39,6 +39,9 @@ export default {
     '@nuxtjs/sitemap',
     'nuxt-webfontloader'
   ],
+  sitemap: {
+    hostname: 'https://amas.dev',
+  },
   webfontloader: {
     google: {
       families: ['Griffy', 'Life Savers', 'Julius Sans One']
