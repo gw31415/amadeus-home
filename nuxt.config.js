@@ -40,6 +40,15 @@ export default {
     'nuxt-webfontloader',
     '@aceforth/nuxt-optimized-images'
   ],
+  purgeCSS: {
+    paths: [
+      'components/**/*.vue',
+      'layouts/**/*.vue',
+      'pages/**/*.vue',
+      'plugins/**/*.js',
+      './node_modules/vuetify/dist/vuetify.js'
+    ]
+  },
   optimizedImages: {
     optimizeImages: true
   },
