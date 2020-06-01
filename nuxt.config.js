@@ -41,6 +41,13 @@ export default {
     'nuxt-webfontloader',
     '@aceforth/nuxt-optimized-images'
   ],
+  manifest: {
+    name: "Amadeus_vn",
+    short_name: "Ama",
+    display: "browser",
+    scope: "/",
+    start_url: "/"
+  },
   purgeCSS: {
     paths: [
       'components/**/*.vue',
