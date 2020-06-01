@@ -37,6 +37,7 @@ export default {
   buildModules: [
     '@nuxtjs/vuetify',
     '@nuxtjs/sitemap',
+    '@nuxtjs/pwa',
     'nuxt-webfontloader',
     '@aceforth/nuxt-optimized-images'
   ],
