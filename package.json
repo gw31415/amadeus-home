@@ -19,5 +19,8 @@
     "nuxt-webfontloader": "^1.1.0",
     "vueinview": "^1.0.7"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@aceforth/nuxt-optimized-images": "^1.0.1",
+    "webp-loader": "^0.6.0"
+  }
 }

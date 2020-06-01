@@ -1,7 +1,11 @@
 <template>
   <div>
     <div class="headtitle">
-      <img src="@/assets/bar.jpg" class="headback" />
+      <picture class="headback">
+        <source :srcSet="require('@/assets/bar.jpg?webp')" type="image/webp" />
+        <source :srcSet="require('@/assets/bar.jpg')" type="image/jpeg" />
+        <img :src="require('@/assets/bar.jpg')" class="headback"/>
+      </picture>
       <div class="alltitle">
         <div class="titlback">
           <div class="titl">Contacts</div>

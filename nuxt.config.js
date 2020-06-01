@@ -34,11 +34,15 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [
+  buildModules: [
     '@nuxtjs/vuetify',
     '@nuxtjs/sitemap',
-    'nuxt-webfontloader'
+    'nuxt-webfontloader',
+    '@aceforth/nuxt-optimized-images'
   ],
+  optimizedImages: {
+    optimizeImages: true
+  },
   sitemap: {
     hostname: 'https://amas.dev',
   },

@@ -1,7 +1,11 @@
 <template>
   <div>
     <div class="cover">
-      <img src="@/assets/icon.jpg" class="icon"/>
+      <picture>
+        <source :srcSet="require('@/assets/icon.jpg?webp')" type="image/webp" />
+        <source :srcSet="require('@/assets/icon.jpg')" type="image/jpeg" />
+        <img :src="require('@/assets/icon.jpg')" class="icon"/>
+      </picture>
       <h1 class="myname">Amadeus_vn</h1>
       <h2 class="subtitle">天輝主</h2>
       <div class="scrollico"></div>
