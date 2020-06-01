@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.0.1",
+    "imagemin-mozjpeg": "^9.0.0",
     "webp-loader": "^0.6.0"
   }
 }
