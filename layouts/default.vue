@@ -1,7 +1,8 @@
 <template>
   <v-app>
-    <v-app-bar flat fixed class="appbar" color="transparent">
+    <v-app-bar :color="$store.state.header.color" fixed :dark="$store.state.header.dark">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-toolbar-title>{{ $store.state.header.title }}</v-toolbar-title>
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" fixed temporary>
       <v-list>
@@ -19,15 +20,14 @@
         </v-list-item-->
       </v-list>
     </v-navigation-drawer>
-  <div class="main">
-    <nuxt />
-
-    <v-footer class="vfooter" padless>
-      <v-col class="primary lighten-2 py-4 text-center white--text" cols="12">
-        {{ new Date().getFullYear() }} —
-        <strong>Amadeus_vn</strong>
-      </v-col>
-    </v-footer>
+    <div class="main">
+      <nuxt />
+      <v-footer class="vfooter" padless>
+        <v-col class="primary lighten-2 py-4 text-center white--text" cols="12">
+          {{ new Date().getFullYear() }} —
+          <strong>Amadeus_vn</strong>
+        </v-col>
+      </v-footer>
     </div>
   </v-app>
 </template>
@@ -51,7 +51,7 @@ html {
   margin: 0;
 }
 .main {
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   left: 0;
   width: 100vw;
@@ -68,10 +68,6 @@ html {
   position: relative;
   bottom: 0;
   width:100vw;
-}
-.appbar {
-  background: linear-gradient(white, transparent);
-  /*backdrop-filter: blur(10px);*/
 }
 </style>
 <script>

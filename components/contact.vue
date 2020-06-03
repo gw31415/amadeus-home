@@ -37,7 +37,7 @@
 <style>
 .space {
   margin: 3ex;
-  }
+}
 .sns {
   height: 250px;
   justify-content: center;

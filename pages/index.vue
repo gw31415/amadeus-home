@@ -40,6 +40,7 @@
 import hobby from "~/components/hobby.vue";
 
 export default {
+  layout: 'toppage',
   components: {
     hobby
   }
