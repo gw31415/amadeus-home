@@ -1,5 +1,5 @@
 <template>
-<div class="space">
+<div>
   <v-card
     class="mx-auto"
     max-width="400"
@@ -35,9 +35,6 @@
   </div>
 </template>
 <style>
-.space {
-  margin: 3ex;
-}
 .sns {
   height: 250px;
   justify-content: center;
@@ -76,7 +73,7 @@ export default {
       }
     },
     jump: data => {
-        window.location.href = data
+      window.location.href = data
     }
   }
 }
