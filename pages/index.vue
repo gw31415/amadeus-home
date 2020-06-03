@@ -144,9 +144,8 @@ export default {
   color: white;
 }
 .hblist {
-  width: 100vw;
   padding-top: 2ex;
-  padding-left: 1em;
+  padding-left: max(1em,calc(50vw-240px));
   padding-bottom: 2ex;
   min-height: 60vh;
 }
