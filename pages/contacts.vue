@@ -52,7 +52,7 @@
         shareTitle="YouTube"
         shareText=""
         shareUrl="https://youtube.com/channel/UCOgNXfCpmc6fe5_P3BO4xRA"
-        description="特に更新はしていない"
+        description="ときどきなんかあげてますね."
       />
       <contact
         name="LINE"
