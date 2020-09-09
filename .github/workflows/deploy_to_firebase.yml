@@ -27,8 +27,6 @@ jobs:
     - run: yarn install
     - run: yarn gen
     - name: deploy to Firebase Hosting
-      uses: w9jds/firebase-action@master
-      with:
-        args: deploy
+      run: yarn firebase deploy --token $FIREBASE_TOKEN
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
