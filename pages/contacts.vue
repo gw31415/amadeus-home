@@ -12,7 +12,7 @@
         shareTitle="Twitter"
         shareText="天輝主 (@Amadeus_vn)さんをチェックしよう"
         shareUrl="https://twitter.com/Amadeus_vn"
-        description="VTuberファン/漫画読み/Arcaea/RT注意"
+        description="所謂ヲタ垢です"
       />
       <contact
         name="Discord"
@@ -22,17 +22,7 @@
         shareTitle="Discord"
         shareText="Discord - 数学を愛する会"
         shareUrl="https://twitter.com/mathlava/status/1241689163205734405"
-        description="いっくん氏の運営する数学を愛する会管理者の一人です."
-      />
-      <contact
-        name="Mastodon"
-        icon="mdi-mastodon"
-        color="white"
-        icocolor="#00aced"
-        shareTitle="Mastodon"
-        shareText=""
-        shareUrl="https://mstdn.maud.io/web/accounts/155098"
-        description=":don:に時々います. 下ネタ注意."
+        description="いっくん氏の運営する数学を愛する会管理者の一人です. 最近の浮上率は期待しないでください."
       />
       <contact
         name="GitHub"
@@ -55,16 +45,6 @@
         description="ときどきなんかあげてますね."
       />
       <contact
-        name="LINE"
-        icon="fab fa-line"
-        color="#00b900"
-        icocolor="white"
-        shareTitle="LINE"
-        shareText=""
-        shareUrl="https://lin.ee/oVlhHh7"
-        description="返信遅れることがよくありそうです"
-      />
-      <contact
         name="ますらばWiki"
         icon="mdi-wikipedia"
         color="white"
@@ -73,16 +53,6 @@
         shareText=""
         shareUrl="https://wiki.mathlava.com/wiki/%e5%88%a9%e7%94%a8%e8%80%85:%e5%a4%a9%e8%bc%9d%e4%b8%bb"
         description="管理をしています"
-      />
-      <contact
-        name="メール"
-        icon="mdi-email"
-        color="slateblue"
-        icocolor="white"
-        shareTitle="メール"
-        shareText="お問い合わせ"
-        shareUrl="mailto:q1@amas.dev"
-        description="お問い合わせ用メールアドレス"
       />
     </div>
   </div>
