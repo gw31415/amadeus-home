@@ -26,8 +26,8 @@
       <br />⇒ Umm.....
     </h3>
     <div class="tx">
-      中高一貫校卒, 大学落第ループ中.
-      <br />素材の味を活かした自然派浪人生です.
+      中高一貫校卒, ２年の浪人ののち貧しい医大生となりました.
+      <br /> 人生は楽しい.
     </div>
     <h3 class="quote pages">
       <v-icon size="150px" @click="$router.push('/contacts')" color="white" >mdi-account-circle</v-icon>
