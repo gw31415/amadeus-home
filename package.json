@@ -22,9 +22,9 @@
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.0.1",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "firebase-tools": "^8.10.0",
     "imagemin-mozjpeg": "^9.0.0",
     "nuxt-purgecss": "^1.0.0",
-    "webp-loader": "^0.6.0",
-    "firebase-tools": "^8.10.0"
+    "webp-loader": "^0.6.0"
   }
 }
