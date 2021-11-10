@@ -12,17 +12,17 @@
     "deploy": "firebase deploy"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@nuxtjs/sitemap": "^2.4.0",
-    "@nuxtjs/vuetify": "^1.11.3",
-    "nuxt": "^2.15.4",
+    "@nuxtjs/vuetify": "^1.12.1",
+    "nuxt": "^2.15.8",
     "nuxt-webfontloader": "^1.1.0",
     "vueinview": "^1.0.7"
   },
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.4.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "firebase-tools": "^8.20.0",
+    "firebase-tools": "^9.22.0",
     "imagemin-mozjpeg": "^9.0.0",
     "nuxt-purgecss": "^1.0.0",
     "webp-loader": "^0.6.0"
