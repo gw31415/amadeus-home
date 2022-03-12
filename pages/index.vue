@@ -2,9 +2,7 @@
   <div>
     <div class="cover">
       <picture>
-        <source :srcSet="require('@/assets/icon.jpg?webp')" type="image/webp" />
-        <source :srcSet="require('@/assets/icon.jpg')" type="image/jpeg" />
-        <img :src="require('@/assets/icon.jpg')" class="icon"/>
+        <img src="@/assets/icon.webp" class="icon"/>
       </picture>
       <h1 class="myname">Amadeus_vn</h1>
       <h2 class="subtitle">天輝主</h2>

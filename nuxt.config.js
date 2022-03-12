@@ -39,7 +39,6 @@ export default {
     '@nuxtjs/sitemap',
     '@nuxtjs/pwa',
     'nuxt-webfontloader',
-    '@aceforth/nuxt-optimized-images'
   ],
   manifest: {
     name: "Amadeus_vn",
