@@ -1,0 +1,57 @@
+baseurl = "https://amas.dev"
+title = "amas.dev"
+theme = "hugo-coder"
+languagecode = "ja"
+defaultcontentlanguage = "ja"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+author = "天輝主"
+info = "Amateur engineer, violinist, medical student"
+description = "Ama's personal website"
+keywords = "blog,developer,personal"
+avatarurl = "images/avatar.jpg"
+#gravatar = "john.doe@example.com"
+
+favicon_32 = "images/favicon-32x32.png"
+favicon_16 = "images/favicon-16x16.png"
+
+since = 2023
+
+enableTwemoji = true
+
+colorScheme = "auto"
+hidecolorschemetoggle = false
+
+# customCSS = ["css/custom.css"]
+# customSCSS = ["scss/custom.scss"]
+# customJS = ["js/custom.js"]
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/gw31415/"
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-twitter fa-2x"
+weight = 2
+url = "https://twitter.com/Amadeus_vn/"
+
+# [[menu.main]]
+# name = "About"
+# weight = 1
+# url = "about/"
