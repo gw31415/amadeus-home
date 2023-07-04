@@ -50,6 +50,11 @@ name = "Twitter"
 icon = "fa fa-twitter fa-2x"
 weight = 2
 url = "https://twitter.com/ama_vn/"
+[[params.social]]
+name = "Fediverse"
+icon = "fa fa-mastodon fa-2x"
+weight = 2
+url = "https://social.amas.dev/@ama"
 
 # [[menu.main]]
 # name = "About"
