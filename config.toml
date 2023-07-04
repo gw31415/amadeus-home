@@ -17,11 +17,11 @@ author = "天輝主"
 info = "Amateur engineer, violinist, medical student"
 description = "Ama's personal website"
 keywords = "blog,developer,personal"
-avatarurl = "images/avatar.jpg"
-#gravatar = "john.doe@example.com"
+# avatarurl = "images/avatar.jpg"
+gravatar = "git@amas.dev"
 
-favicon_32 = "favicon-32x32.png"
-favicon_16 = "favicon-16x16.png"
+# favicon_32 = "favicon-32x32.png"
+# favicon_16 = "favicon-16x16.png"
 
 since = 2023
 
@@ -49,7 +49,7 @@ url = "https://github.com/gw31415/"
 name = "Twitter"
 icon = "fa fa-twitter fa-2x"
 weight = 2
-url = "https://twitter.com/Amadeus_vn/"
+url = "https://twitter.com/ama_vn/"
 
 # [[menu.main]]
 # name = "About"
